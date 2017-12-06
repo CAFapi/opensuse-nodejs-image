@@ -19,7 +19,7 @@ FROM cafapi/opensuse-tini:1.0
 # Update the OS packages and install NodeJS
 RUN zypper -n refresh && \
     zypper -n update && \
-    zypper -n install nodejs4
+    zypper -n install nodejs4 npm
 
 # Tag the image
 ARG BUILD_NUMBER
