@@ -1,6 +1,6 @@
-# openSUSE and NodeJS image
+# openSUSE and NodeJS4 image
 
-This project builds an openSUSE-based image which includes NodeJS. It can be used as a base image by projects which require NodeJS.
+This project builds an openSUSE-based image which includes NodeJS version 4. It can be used as a base image by projects which require NodeJS4.
 
 ### Tini
 [Tini](https://github.com/krallin/tini) is pre-installed in the container.  If the image entrypoint is not overwritten then it will be automatically used.

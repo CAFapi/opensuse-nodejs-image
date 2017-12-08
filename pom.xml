@@ -22,13 +22,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.cafapi</groupId>
-    <artifactId>opensuse-nodejs-image</artifactId>
+    <artifactId>opensuse-nodejs4-image</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>openSUSE NodeJS image</name>
-    <description>An openSUSE-based image which includes NodeJS.</description>
-    <url>https://github.com/CAFapi/opensuse-nodejs-image</url>
+    <name>openSUSE NodeJS4 image</name>
+    <description>An openSUSE-based image which includes NodeJS version 4.</description>
+    <url>https://github.com/CAFapi/opensuse-nodejs4-image</url>
 
     <parent>
         <groupId>com.github.cafapi</groupId>
@@ -95,7 +95,7 @@
                     <autoPull>always</autoPull>
                     <images>
                         <image>
-                            <name>${dockerCafImagePrefix}opensuse-nodejs${dockerProjectVersion}</name>
+                            <name>${dockerCafImagePrefix}opensuse-nodejs4${dockerProjectVersion}</name>
                             <build>
                                 <dockerFileDir>.</dockerFileDir>
                                 <args>
@@ -120,9 +120,9 @@
     </build>
 
     <scm>
-        <connection>scm:git:https://github.com/CAFapi/opensuse-nodejs-image.git</connection>
-        <developerConnection>scm:git:https://github.com/CAFapi/opensuse-nodejs-image.git</developerConnection>
-        <url>https://github.com/CAFapi/opensuse-nodejs-image</url>
+        <connection>scm:git:https://github.com/CAFapi/opensuse-nodejs4-image.git</connection>
+        <developerConnection>scm:git:https://github.com/CAFapi/opensuse-nodejs4-image.git</developerConnection>
+        <url>https://github.com/CAFapi/opensuse-nodejs4-image</url>
     </scm>
 
 </project>
